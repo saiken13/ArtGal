@@ -1,17 +1,19 @@
+// Navbar.js
 import React from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center p-4 bg-white shadow-md fixed w-full top-0 z-10">
-      <div className="text-2xl font-bold text-gray-800">
+    <nav className="navbar">
+      <div className="logo">
         <h1>ArtGal</h1>
       </div>
-      <ul className="flex gap-8">
-        <li><a href="/" className="text-gray-800 hover:text-blue-500">Home</a></li>
-        <li><a href="/collections" className="text-gray-800 hover:text-blue-500">Collections</a></li>
-        <li><a href="/artists" className="text-gray-800 hover:text-blue-500">Artists</a></li>
-        <li><a href="/about" className="text-gray-800 hover:text-blue-500">About</a></li>
-        <li><a href="/contact" className="text-gray-800 hover:text-blue-500">Contact</a></li>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/collections">Collections</a></li>
+        <li><a href="/artists">Artists</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>
   );

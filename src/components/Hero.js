@@ -18,7 +18,7 @@ const slides = [
   },
   {
     image: 'https://via.placeholder.com/1200x600.png?text=Artwork+3',
-    title: 'Support Emerging Artists',
+    title: 'Support Emerging Arts',
     cta: 'Browse Collections',
   },
 ];

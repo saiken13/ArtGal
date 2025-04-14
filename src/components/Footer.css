@@ -1,54 +1,47 @@
+/* Footer.css */
 .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 3rem 2rem;
-  }
-  
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    gap: 2rem;
-  }
-  
-  .footer-section {
-    flex: 1;
-    min-width: 200px;
-  }
-  
-  .footer-section h3 {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-  }
-  
-  .footer-section p {
-    font-size: 0.9rem;
-  }
-  
-  .footer-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-section ul li {
-    margin-bottom: 0.5rem;
-  }
-  
-  .footer-section ul li a {
-    color: #ccc;
-    text-decoration: none;
-  }
-  
-  .footer-section ul li a:hover {
-    color: #fff;
-  }
-  
-  .footer-bottom {
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 0.9rem;
-    border-top: 1px solid #444;
-    padding-top: 1rem;
-  }
+  background-color: #333;
+  color: #ccc;
+  padding: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.footer-section h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section li {
+  font-size: 0.9rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #ff5a5f;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+}

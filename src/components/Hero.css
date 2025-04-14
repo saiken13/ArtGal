@@ -1,59 +1,53 @@
+/* Hero.css */
 .hero {
-    margin-top: 60px; /* Adjust for fixed navbar */
-  }
-  
-  .hero-slide {
-    position: relative;
-    height: 600px;
-  }
-  
-  .hero-image {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-  }
-  
-  .hero-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 2rem;
-    border-radius: 8px;
-  }
-  
-  .hero-title {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .hero-cta {
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .hero-cta:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Style the dots */
-  .slick-dots {
-    bottom: 20px;
-  }
-  
-  .slick-dots li button:before {
-    font-size: 12px;
-    color: #fff;
-  }
-  
-  .slick-dots li.slick-active button:before {
-    color: #007bff;
-  }
+  position: relative;
+}
+
+.hero-slide {
+  position: relative;
+  height: calc(100vh - 80px); /* Adjust if you have a fixed navbar of 80px, or use 100vh */
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; /* Ensures there is no inline behavior showing alt text */
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;           /* This ensures the overlay covers the whole area */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3); /* Optional: dark overlay for readability */
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+.hero-cta {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border: none;
+  background-color: #ff5a5f;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-cta:hover {
+  background-color: #e14c50;
+}

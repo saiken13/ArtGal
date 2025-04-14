@@ -11,17 +11,17 @@ const collections = [
   {
     image: 'https://via.placeholder.com/300x400.png?text=Artwork+2',
     title: 'Ocean Waves',
-    artist: 'John Smith',
+    artist: 'Jane Doe',
   },
   {
     image: 'https://via.placeholder.com/300x400.png?text=Artwork+3',
     title: 'Urban Lights',
-    artist: 'Emily Johnson',
+    artist: 'Jane Doe',
   },
   {
     image: 'https://via.placeholder.com/300x400.png?text=Artwork+4',
     title: 'Floral Serenity',
-    artist: 'Michael Brown',
+    artist: 'Jane Doe',
   },
 ];
 

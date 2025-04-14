@@ -1,3 +1,18 @@
+/* App.css or index.css */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-    text-align: center;
-  }
+  padding-top: 80px; /* match your navbar height */
+}
+
+
+a {
+  text-decoration: none;
+}
